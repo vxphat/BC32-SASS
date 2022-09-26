@@ -1,0 +1,228 @@
+@import url("https://fonts.googleapis.com/css2?family=Roboto:wght@100;300;400;500;700;900&display=swap");
+@import url("https://fonts.googleapis.com/css2?family=Roboto:wght@100;300;400;500;700;900&display=swap");
+@import url("https://fonts.googleapis.com/css2?family=Roboto:wght@100;300;400;500;700;900&display=swap");
+@import url("https://fonts.googleapis.com/css2?family=Roboto:wght@100;300;400;500;700;900&display=swap");
+@import url("https://fonts.googleapis.com/css2?family=Roboto:wght@100;300;400;500;700;900&display=swap");
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+html, body {
+  font-size: 15px;
+  font-family: "Roboto", sans-serif;
+}
+
+a {
+  text-decoration: none;
+}
+
+li {
+  list-style: none;
+}
+
+.mainHeader {
+  background-color: transparent;
+  position: absolute;
+  top: 0;
+  left: 0;
+  width: 100%;
+}
+
+.header__content .navbar-brand img {
+  width: 80px;
+}
+.header__content .collapse {
+  justify-content: end;
+  align-items: center;
+}
+.header__content .collapse a {
+  color: #000000;
+  transition: all 0.5s;
+}
+.header__content .collapse a:hover {
+  color: #b61984;
+}
+.header__content .collapse .nav-link {
+  margin-right: 40px;
+  font-weight: 600;
+  transition: all 0.5s;
+}
+.header__content .collapse .header__right {
+  display: flex;
+}
+.header__content .collapse .header__right .header__phone i {
+  transform: rotate(270deg);
+}
+.header__content .collapse .header__phone a {
+  padding: 10px 15px;
+  border-radius: 30px;
+  background-color: #b61984;
+  color: #ffffff;
+  transition: all 0.5s;
+}
+.header__content .collapse .header__phone a:hover {
+  text-decoration: none;
+  background-color: #ffffff;
+  border: 1px solid #b61984;
+  color: #b61984;
+}
+.header__content .header__social .social {
+  display: flex;
+  justify-content: space-between;
+  margin-left: 10px;
+}
+.header__content .header__social .social li {
+  margin-right: 10px;
+  font-size: 12px;
+}
+
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+html, body {
+  font-size: 15px;
+  font-family: "Roboto", sans-serif;
+}
+
+a {
+  text-decoration: none;
+}
+
+li {
+  list-style: none;
+}
+
+.aboutUs {
+  overflow: hidden;
+}
+.aboutUs .banner__about img {
+  width: 90%;
+}
+.aboutUs .aboutUs__content .about__heading {
+  align-items: center;
+}
+.aboutUs .aboutUs__content .about__heading h4 {
+  color: #b61984;
+  font-size: 1.1rem;
+  margin-bottom: 0.5em;
+  font-weight: 600;
+}
+.aboutUs .aboutUs__content .about__heading p {
+  font-size: 3.6rem;
+  font-weight: 700;
+  line-height: 55px;
+}
+.aboutUs .aboutUs__content .img-heading {
+  transform: translateY(-170px);
+  width: 100%;
+}
+.aboutUs .aboutUs__content .item {
+  height: 250px;
+}
+
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+html, body {
+  font-size: 15px;
+  font-family: "Roboto", sans-serif;
+}
+
+a {
+  text-decoration: none;
+}
+
+li {
+  list-style: none;
+}
+
+.team .banner__team {
+  z-index: 1;
+}
+.team .banner__team img {
+  width: 100%;
+}
+.team .team__content {
+  background-color: #DCD1F0;
+  padding: 50px 0;
+}
+.team .team__content .card {
+  border-radius: 10px;
+  border: none;
+  transition: ease-in-out 0.25s;
+}
+.team .team__content .card:hover {
+  box-shadow: 0px 20px 15px rgba(0, 0, 0, 0.1);
+}
+.team .team__content .card img {
+  border-radius: 10px 10px 0 0;
+  transition: ease-in-out 0.5s;
+}
+.team .team__content .card-title {
+  color: #b61984;
+  font-size: 14px;
+  font-weight: 500;
+  margin-bottom: 5px;
+}
+.team .team__content .card-name {
+  font-weight: 600;
+  margin-bottom: 20px;
+}
+.team .team__content .team__body {
+  display: grid;
+  grid-template-columns: repeat(4, 1fr);
+  gap: 40px;
+}
+
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+html, body {
+  font-size: 15px;
+  font-family: "Roboto", sans-serif;
+}
+
+a {
+  text-decoration: none;
+}
+
+li {
+  list-style: none;
+}
+
+.contact .banner__contact {
+  background-image: url(../../images/Wave_White_bottom_right_shape_01.png);
+  background-position: center;
+  background-size: 100%;
+  background-repeat: no-repeat;
+}
+
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+html, body {
+  font-size: 15px;
+  font-family: "Roboto", sans-serif;
+}
+
+a {
+  text-decoration: none;
+}
+
+li {
+  list-style: none;
+}/*# sourceMappingURL=main.css.map */

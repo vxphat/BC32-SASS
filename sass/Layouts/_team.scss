@@ -1,0 +1,48 @@
+@import '../Helpers/global';
+
+.team{
+
+    .banner__team{
+        z-index: 1;
+        // transform: translateY(-120px);
+        img{
+            width: 100%;
+        }
+    }
+    
+    .team__content{
+        background-color: $color-team;
+        padding: 50px 0;
+        .card{
+            border-radius: 10px;
+            border: none;
+            transition: ease-in-out 0.25s;
+           &:hover{
+            box-shadow: 0px 20px 15px rgb(0 0 0 /10%);
+           }
+            img{
+                border-radius: 10px 10px 0 0;
+                transition: ease-in-out 0.5s;
+            }
+
+        }
+
+        .card-title{
+            color: $color-purple;
+            font-size: 14px;
+            font-weight: 500;
+            margin-bottom: 5px;
+        }
+
+        .card-name{
+            font-weight: 600;
+            margin-bottom: 20px;
+        }
+
+        .team__body{
+            display: grid;
+            grid-template-columns: repeat(4,1fr);
+            gap: 40px;
+        }
+    }
+}
